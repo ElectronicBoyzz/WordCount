@@ -83,7 +83,7 @@ int main(void){
 			p=p->nextW;
 		}
 	}
-	//如果想要保存结果的话可以解注释以下代码
+	//如果想要保存结果的话可以解开注释以下代码
 	/*FILE *fp2=fopen("data.txt","w");//data.txt为你想要保存结果的文件名称
 	for(int j=0;j<26;j++){
 		p=wlist[j].first;
